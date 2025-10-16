@@ -1,0 +1,34 @@
+/* Wyśrodkowanie całej strony */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9fb;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+/* Kontener */
+.container {
+    max-width: 600px;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Nagłówek */
+h2 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Przycisk */
+button {
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
