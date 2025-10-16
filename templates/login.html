@@ -11,13 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     
     <!-- Własny CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('statics', filename='style.css') }}">
 </head>
 
 <body>
     <div class="container">
         <!-- Logo -->
-        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="mb-3">
+        <img src="{{ url_for('statics', filename='logo.png') }}" alt="Logo" class="mb-3">
 
         <!-- Nagłówek -->
         <h2>
@@ -39,6 +39,6 @@
     </div>
 
     <!-- Własny JS -->
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('statics', filename='script.js') }}"></script>
 </body>
 </html>
