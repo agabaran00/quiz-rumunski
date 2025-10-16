@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 from flask_session import Session
 import random
 
-app = Flask(__name__, static_folder='statics')
+app = Flask(__name__, static_folder='static')
 
 @app.route("/")
 def home():
